@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/tweet_list_fragment">
+
+    <fragment
+        android:id="@+id/tweet_list_fragment"
+        android:name="edu.sjsu.twitterfeeds.ui.tweetlist.TwitterListFragment"
+        android:label="Tweet List"
+        tools:layout="@layout/twitter_list_fragment">
+        <action
+            android:id="@+id/action_tweet_deatils"
+            app:destination="@id/tweet_details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tweet_details_fragment"
+        android:name="edu.sjsu.twitterfeeds.ui.tweetdetails.TweetDetailsFragment"
+        android:label="Tweet Details"
+        tools:layout="@layout/tweet_details_fragment" />
+
+</navigation>
