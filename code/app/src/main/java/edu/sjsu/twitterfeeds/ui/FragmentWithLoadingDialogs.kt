@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import edu.sjsu.twitterfeeds.BuildConfig
 
 open class FragmentWithLoadingDialogs : Fragment() {
 
@@ -36,7 +37,7 @@ open class FragmentWithLoadingDialogs : Fragment() {
 
     protected fun showErrorMessage(errorMessage: String) {
         AlertDialog.Builder(activity).setMessage(errorMessage).setCancelable(true)
-            .setNegativeButton(errorMessage) { dialog, _ ->
+            .setNegativeButton("Cancel") { dialog, _ ->
                 dialog.dismiss()
             }.create().show()
     }

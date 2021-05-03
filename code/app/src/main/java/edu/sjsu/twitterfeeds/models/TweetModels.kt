@@ -3,7 +3,7 @@ package edu.sjsu.twitterfeeds.models
 import com.squareup.moshi.Json
 
 data class TweetList(
-    @field:Json(name = "data") val data: List<TweetListItem>
+    @field:Json(name = "data") val tweets: List<TweetListItem>
 )
 
 data class TweetListItem(
