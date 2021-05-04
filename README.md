@@ -29,11 +29,11 @@ The Android app source code can be find in the directory **code**.
 - **edu.sjsu.twitterfeeds.ui.tweetlist**: Contains the TweetList fragment and it's View model.
 - **edu.sjsu.twitterfeeds.ui.tweetdetails**: Contains the TweetDetails fragment and it's View model.
 
-## Twitter
+## Twitter APIs
 The twitter web API https://api.twitter.com/ is used for searching the tweets and getting the tweet details. The Retrofit and Moshi implementation for netwoking and JSON serialization can be seen in [Networking](https://github.com/shtomar-sjsu/CMPE277-HW2-Twitter-feeds/blob/main/code/app/src/main/java/edu/sjsu/twitterfeeds/networking/Networking.kt) class.
 
 ## App demo
-A video demonstrating the application use can be seen on [Google drive]()
+A video demonstrating the application use can be seen on [Google drive](https://drive.google.com/file/d/1n1oZPVplbKSi3bsOKsltR8DYDfaSuRco/view?usp=sharing)
 
 > The app demo video is only shared with Google accounts with sjsu.edu domain. Please login into google drive with sjsu.edu email id for watching the video.
 
